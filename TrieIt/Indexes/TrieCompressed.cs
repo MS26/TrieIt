@@ -324,7 +324,7 @@ Gen 2 collections: 2
                 {
                     /*
                      * If the expanded nodes _character is the one we are looking for based on our current depth then recursively call into TryAdd.
-                     * Then ensure that the _expandedNodes has a match added to it for the vehicle being indexed.
+                     * Then ensure that the _expandedNodes has a match added to it for the object being indexed.
                      * Then return early as the recursive call to TryAdd would ensure that the complete word had been indexed so we do not have to do any moore operations in this node.
                      */
                     if (_expandedNodes[i]._character == word[depth])
